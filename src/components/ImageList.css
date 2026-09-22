@@ -1,0 +1,21 @@
+.image-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 30px;
+}
+
+.no-results {
+    text-align: center;
+    margin: 40px 0;
+    color: #666;
+}
+
+@media (max-width: 600px) {
+
+    .image-list {
+        grid-template-columns: 1fr;
+        padding: 0 10px;
+        gap: 15px;
+    }
+
+}
