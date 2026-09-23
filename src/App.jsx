@@ -20,7 +20,7 @@ const App = () => {
                 {
                     params: {
                         query: term,
-                        per_page: 33,
+                        per_page: 30,
                     },
                     headers: {
                         Authorization: `Client-ID ${import.meta.env.VITE_UNSPLASH_ACCESS_KEY}`,
